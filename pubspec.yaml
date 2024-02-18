@@ -1,0 +1,39 @@
+name: shop_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  dio: ^4.0.6
+  hexcolor: ^2.0.7
+  shared_preferences: ^2.0.15
+  webview_flutter: ^3.0.4
+  smooth_page_indicator: ^1.0.0+2
+  conditional_builder_null_safety: ^0.0.6
+  fluttertoast: ^8.0.9
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/Images/
+
+  uses-material-design: true
